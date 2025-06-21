@@ -5,7 +5,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import remarkGfm from 'remark-gfm';
 import rehypePrismPlus from 'rehype-prism-plus';
 
-const postsDirectory = path.join(process.cwd(), '..', '_posts');
+const postsDirectory = path.join(process.cwd(), '.', '_posts');
 
 export type PostData = {
   slug: string;
