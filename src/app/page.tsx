@@ -36,7 +36,7 @@ export default function HomePage() {
           className="max-w-2xl text-lg text-muted-foreground sm:text-xl"
         >
           I design and build intelligent systems with an emphasis on local-first AI, agentic reasoning, and resilient open-source infrastructure.
-          Whether it's an economic insight engine or an AI journaling assistant, I create tools that are transparent, autonomous, and built to last.
+          Whether it&#39;s an economic insight engine or an AI journaling assistant, I create tools that are transparent, autonomous, and built to last.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

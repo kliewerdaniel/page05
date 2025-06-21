@@ -20,7 +20,7 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6 }}
         >
-          I'm Daniel Kliewer, a software engineer and creative technologist based in Austin, Texas. I work at the intersection of local AI, full-stack development, and systems thinking. I specialize in building tools that are introspective, agentic, and capable of understanding context &mdash; not just processing it.
+          I&#39;m Daniel Kliewer, a software engineer and creative technologist based in Austin, Texas. I work at the intersection of local AI, full-stack development, and systems thinking. I specialize in building tools that are introspective, agentic, and capable of understanding context &mdash; not just processing it.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.4, duration: 0.6 }}
         >
-          I'm currently focused on building personal knowledge interfaces, economic analysis agents, and infrastructure that supports AI workflows without external dependencies.
+          I&#39;m currently focused on building personal knowledge interfaces, economic analysis agents, and infrastructure that supports AI workflows without external dependencies.
         </motion.p>
 
         <motion.h2
