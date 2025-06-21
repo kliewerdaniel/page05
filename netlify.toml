@@ -1,9 +1,10 @@
 [build]
-  command = "next build"
+  command = "npm install && next build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
+  NEXT_BUILD_CACHE_DISABLED = "true"
 
 [[redirects]]
   from = "/_next/static/*"
