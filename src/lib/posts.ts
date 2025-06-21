@@ -12,7 +12,6 @@ export type PostData = {
   title: string;
   date: string;
   description: string;
-  [key: string]: any; // Allow for other frontmatter properties
 };
 
 export function getSortedPostsData() {
