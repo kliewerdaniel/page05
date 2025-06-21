@@ -3,8 +3,9 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   NEXT_BUILD_CACHE_DISABLED = "true"
+  PYENV_DISABLE_AUTO_INSTALL = "true"
 
 [[redirects]]
   from = "/_next/static/*"
